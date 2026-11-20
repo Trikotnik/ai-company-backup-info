@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — AI Company Backup</title>
+<style>body{max-width:46rem;margin:4rem auto;padding:0 1rem;font:18px/1.6 system-ui;color:#223}a{color:#1565c0}</style>
+<main>
+<h1>Privacy policy</h1>
+<p>Effective date: 20 November 2026.</p>
+<p>AI Company Backup is a personal, locally operated tool for backing up its owner's files to the owner's Google Drive. It is not offered as a hosted service to other users.</p>
+<h2>Google data and permissions</h2>
+<p>The tool requests only the Google Drive <code>drive.file</code> permission. It uses this permission to create a backup folder, upload encrypted backup archives and checksum records, verify their metadata or download them for integrity and restoration tests, and delete older backup files. It does not request general access to existing Google Drive files.</p>
+<h2>Encryption and storage</h2>
+<p>Backup content is encrypted locally before upload. Only the owner retains the private decryption key. Google Drive stores encrypted archives and non-secret checksum records. Google authorization credentials are handled by rclone and stored locally on the owner's computer, not on this website and not in the backup folder.</p>
+<h2>Use and sharing</h2>
+<p>Google user data is used solely to provide the personal backup and restore functionality described above. It is not sold, used for advertising, shared with data brokers, or used to develop or train artificial intelligence models. Data is transmitted to Google Drive at the owner's direction. No separate application server receives it.</p>
+<p>AI Company Backup's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<h2>Retention and control</h2>
+<p>The backup tool retains the four latest verified backup copies. The owner can stop the scheduled task, delete backup files in Google Drive, remove local authorization credentials, or revoke access in Google Account settings. Revoking authorization stops future access; it does not itself delete existing backups.</p>
+<h2>This website</h2>
+<p>This static site does not ask for credentials, collect backup content, or add analytics or tracking scripts. GitHub Pages hosts it and may process standard request information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+<h2>Contact</h2>
+<p>Questions about this personal tool can be directed to its owner through the GitHub account hosting this website. Never send private keys, passwords, authorization tokens, or backup content.</p>
+<p><a href="./">Back to the application page</a></p>
+</main>
+</html>
